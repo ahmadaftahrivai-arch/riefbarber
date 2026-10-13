@@ -90,7 +90,7 @@ i { font-style: normal; }
 .nav.scrolled { background: rgba(14, 14, 14, .94); }
 .brand { display: flex; align-items: center; gap: 8px; text-decoration: none; }
 .brand-mark { font-size: 1.15rem; }
-.brand-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); }
+.brand-logo { width: 40px; height: 40px; border-radius: 50%; box-shadow: 0 0 0 1px var(--line-light); margin-right: 2px; }
 .brand-sub { font-size: 10px; letter-spacing: .22em; text-transform: uppercase; color: var(--muted-light); }
 .nav-links { display: flex; gap: clamp(18px, 2.6vw, 38px); }
 .nav-links a { font-size: 10.5px; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; text-decoration: none; color: var(--muted-light); transition: color .2s; }
@@ -358,3 +358,8 @@ dd a:hover { color: var(--gold-deep); }
   .hero-media { transform: none; transition: none; }
   .mosaic { display: none; }
 }
+
+/* logo placements */
+.st-logo { width: clamp(72px, 9vw, 104px); height: auto; border-radius: 50%; margin-bottom: 22px; box-shadow: 0 0 0 1px var(--line-light); }
+.foot-mark { width: 72px; height: 72px; border-radius: 50%; margin-bottom: 20px; box-shadow: 0 0 0 1px var(--line-light); }
+@media (max-width: 560px) { .brand-logo { width: 36px; height: 36px; } }
