@@ -20,6 +20,7 @@ window.I18N_EN = {
   s2_t: "Kids' cut", s2_d: "Patient and relaxed for the little ones.",
   s3_t: "Hair colour", s3_d: "Bleach and colour, from subtle to bold.",
   s4_t: "Styling & texture", s4_d: "Curly and textured hair shaped to fit your head.",
+  swipe: "Swipe to see all",
   s_ask: "Ask on WhatsApp", s_price_ask: "Ask",
   end_t: "Take a chair.", end_d: "Leave your name and we reply on WhatsApp to confirm the time.", end_cta: "Book now",
   res_eyebrow: "Results", res_h2: "And this is the result.",
