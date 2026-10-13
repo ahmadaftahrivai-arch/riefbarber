@@ -24,11 +24,11 @@ window.I18N_EN = {
   end_t: "Take a chair.", end_d: "Leave your name and we reply on WhatsApp to confirm the time.", end_cta: "Book now",
   res_eyebrow: "Results", res_h2: "And this is the result.",
   res_note: "A few cuts from our customers. More on Instagram.",
-  res_cap4: "Curly & texture", res_cap5: "Colour", res_cap6: "Kids' cut",
+ 
   res_cta: "See more on Instagram",
   shop_eyebrow: "The shop", shop_h2: "Relaxed, like hanging out.",
   shop_note: "Checkerboard floor, hairstyle posters on the wall, and a ring light for the after photo. Sit, chat, leave sharp.",
-  shop_cap1: "Front of the shop", shop_cap2: "The cutting room", shop_cap3: "The hairstyle wall",
+  shop_cap1: "The cutting room", shop_cap2: "Chairs & mirrors", shop_cap3: "The barber chair",
   team_eyebrow: "Barbers", team_h2: "Pick who suits you.",
   team_note: "You choose your barber when booking. Just name them in the message.", team_role: "Barber",
   testi_eyebrow: "Testimonials", testi_h2: "From those who sat down.",

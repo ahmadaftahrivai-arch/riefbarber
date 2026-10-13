@@ -144,7 +144,7 @@ i { font-style: normal; }
 .hero-media { position: absolute; inset: 0; aspect-ratio: auto; background-size: 64px 64px; transform: scale(1.06); transition: transform 1.6s var(--ease); }
 .hero.loaded .hero-media { transform: scale(1); }
 .hero-media::after { inset: auto 24px 100px auto; max-width: 280px; text-align: right; }
-.hero-shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(14,14,14,.94) 0%, rgba(14,14,14,.7) 45%, rgba(14,14,14,.15) 100%), linear-gradient(0deg, rgba(14,14,14,.8), transparent 40%); z-index: 1; }
+.hero-shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(14,14,14,.88) 0%, rgba(14,14,14,.55) 45%, rgba(14,14,14,.05) 100%), linear-gradient(0deg, rgba(14,14,14,.7), transparent 40%); z-index: 1; }
 .hero-inner { position: relative; z-index: 2; }
 .cta-row { display: flex; align-items: center; flex-wrap: wrap; gap: 14px 22px; margin-top: 36px; }
 .trust { display: flex; flex-wrap: wrap; gap: 8px 26px; margin-top: 64px; font-size: 10.5px; letter-spacing: .18em; text-transform: uppercase; color: var(--muted-light); }
