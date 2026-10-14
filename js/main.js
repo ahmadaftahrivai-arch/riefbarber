@@ -56,7 +56,7 @@
     $$(".lang button").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.lang === l)); });
     document.title = l === "en"
       ? "Rief Barbershop Cirebon | Book Without Waiting"
-      : "Rief Barbershop Cirebon | Booking Tanpa Antri";
+      : "Rief Barbershop Cirebon | Booking Tanpa Antre";
     try { localStorage.setItem("rief-lang", l); } catch (e) {}
     updateOpenBadge();
   }
@@ -151,7 +151,7 @@
   hsView.addEventListener("scroll", setActiveCard, { passive: true });
 
   /* ---------- Scroll loop ---------- */
-  var sections = $$("#craft, #list, #results, #visit").map(function (s) {
+  var sections = $$("#list, #gallery, #visit").map(function (s) {
     return { el: s, link: $('.nav-links a[href="#' + s.id + '"]') };
   });
   var ticking = false;
@@ -225,7 +225,7 @@
       d.waHello, "",
       d.lName + ": " + f.name.value.trim(),
       d.lService + ": " + sel(f.service),
-      d.lCapster + ": " + sel(f.capster),
+      d.lCapster + ": " + (f.capster.value.trim() || d.anyBarber),
       d.lDate + ": " + dp[2] + "/" + dp[1] + "/" + dp[0],
       d.lTime + ": " + f.time.value
     ];

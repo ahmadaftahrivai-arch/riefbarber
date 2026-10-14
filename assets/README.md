@@ -16,3 +16,6 @@ Folder ini berisi **foto contoh** dari Unsplash (lisensi Unsplash: boleh dipakai
 Logo dan ikon: `logo.png`, `favicon.png`, `apple-touch-icon.png`.
 
 Kotak yang belum ada filenya menampilkan placeholder berwatermark logo. Tambahkan `?edit` di URL untuk melihat nama file yang dibutuhkan.
+
+## Bagian yang disembunyikan
+Section **Capster** dan **Testimoni** disembunyikan (atribut `hidden` di `index.html`) sampai ada nama, foto, dan testimoni asli. Isi `capster-1..3.jpg` dan `testi-1..3.jpg`, lalu hapus atribut `hidden` pada `<section id="team">` dan `<section id="testi">` untuk menampilkannya.

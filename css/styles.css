@@ -390,3 +390,21 @@ dd a { display: inline-block; padding: 4px 0; }
 @media (prefers-reduced-motion: reduce) { .swipe-hint i { animation: none; } }
 @media (max-width: 960px) { .swipe-hint { display: flex; } }
 @media (max-width: 340px) { .brand-mark { display: none; } .nav { padding-inline: 12px; } }
+
+/* ===== v2: ramping ===== */
+[hidden] { display: none !important; }
+.marquee { margin-top: 0; }
+.vb { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 5vw, 72px); align-items: start; }
+.vb-info .hours div, .vb-info .contact div { border-color: var(--line-light); }
+.vb-info dt { color: var(--muted-light); }
+.vb-info .hours dt { color: inherit; }
+.vb-info dd a:hover { color: var(--muted-light); }
+.vb-info .contact div:last-child { border-bottom: 1px solid var(--line-light); margin-bottom: 24px; }
+.vb-info .map { min-height: 280px; margin-bottom: 24px; background: var(--ink-2); border-color: var(--line-light); }
+.vb-info .map iframe { min-height: 280px; filter: grayscale(1) invert(.92) contrast(.9); }
+.book-card { background: var(--ink-2); border: 1px solid var(--line-light); padding: clamp(20px, 3vw, 36px); }
+.vb-h { font-stretch: 125%; font-variation-settings: "wdth" 125; font-weight: 800; letter-spacing: -.02em; font-size: 1.35rem; margin-bottom: 22px; }
+@media (max-width: 960px) {
+  .vb { grid-template-columns: 1fr; }
+  .book-card { order: -1; }
+}
