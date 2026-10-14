@@ -1,7 +1,7 @@
 /* Teks default (ID) ada di HTML. Di sini hanya terjemahan EN. */
 window.I18N_EN = {
   skip: "Skip to content",
-  nav_about: "About", nav_list: "Services", nav_gallery: "Gallery", nav_visit: "Location", nav_book: "Book",
+  nav_about: "About", nav_list: "Services", nav_gallery: "Gallery", nav_visit: "Location", nav_book: "Book", nav_contact: "Contact",
   hero_eyebrow: "Barbershop · Cirebon · Open every day",
   hero_h1: "Sharp, no waiting.",
   hero_lead: "Book a time, pick your barber, get cut.",
@@ -24,6 +24,7 @@ window.I18N_EN = {
   testi_cta: "Open the Testimonials highlight",
   visit_eyebrow: "Open every day", visit_h2: "Booking & location.",
   visit_days: "Every day", visit_addr: "Address", visit_map: "Open in Google Maps",
+  contact_eyebrow: "Contact us", contact_h2: "Any questions?", contact_wa: "Chat now", contact_ig: "View profile",
   book_h3: "Book via WhatsApp",
   f_name: "Name", f_service: "Service", f_capster: "Barber (optional)", f_capster_ph: "Your usual barber's name",
   f_day: "Date", f_time: "Time",

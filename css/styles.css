@@ -424,3 +424,19 @@ dd a { display: inline-block; padding: 4px 0; }
 @media (max-width: 560px) { .stats { grid-template-columns: repeat(3, 1fr); gap: 12px; } .stats dt { font-size: 1.05rem; } .stats dd { letter-spacing: .1em; font-size: 9.5px; } }
 .stats dt { white-space: nowrap; }
 @media (max-width: 360px) { .stats { grid-template-columns: 1fr 1fr; } }
+
+/* ===== hubungi kami ===== */
+.contact-links { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(14px, 2vw, 28px); }
+.clink {
+  display: grid; grid-template-columns: 1fr auto; align-items: end; gap: 6px 16px; text-decoration: none;
+  padding: clamp(22px, 3vw, 36px); border: 1px solid var(--ink); background: transparent;
+  transition: background .3s var(--ease), color .3s var(--ease);
+}
+.clink-l { grid-column: 1 / -1; font-size: 10px; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); transition: color .3s; }
+.clink-v { grid-column: 1 / -1; font-stretch: 125%; font-variation-settings: "wdth" 125; font-weight: 800; letter-spacing: -.02em; font-size: clamp(1.25rem, 2.6vw, 2rem); line-height: 1.1; margin: 6px 0 18px; word-break: break-word; }
+.clink-a { font-size: 11px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+.clink i { font-style: normal; font-size: 1.2rem; transition: transform .3s var(--ease); }
+.clink:hover { background: var(--ink); color: var(--paper); }
+.clink:hover .clink-l { color: var(--muted-light); }
+.clink:hover i { transform: translateX(6px); }
+@media (max-width: 700px) { .contact-links { grid-template-columns: 1fr; } }
