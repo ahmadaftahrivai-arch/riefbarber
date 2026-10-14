@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap">
-<link rel="stylesheet" href="css/styles.css?v=20261014a">
+<link rel="stylesheet" href="css/styles.css?v=20261014b">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,6 +52,7 @@
     <img class="brand-logo" src="assets/logo.png" alt="" width="40" height="40"><span class="brand-mark">RIEF</span><span class="brand-sub">Barbershop</span>
   </a>
   <nav class="nav-links" id="navLinks" aria-label="Menu utama">
+    <a href="#about" data-i18n="nav_about">Tentang</a>
     <a href="#list" data-i18n="nav_list">Layanan</a>
     <a href="#gallery" data-i18n="nav_gallery">Galeri</a>
     <a href="#visit" data-i18n="nav_visit">Lokasi</a>
@@ -87,6 +88,26 @@
       <li data-i18n="trust3">Maks. 10 booking per hari</li>
       <li class="open-badge" id="openBadge" aria-live="polite"></li>
     </ul>
+  </div>
+</section>
+
+<!-- TENTANG KAMI -->
+<!-- TODO (pemilik): tambahkan cerita singkat (sejak kapan buka, siapa pendirinya) kalau sudah ada datanya. -->
+<section class="sec sec-ink2" id="about">
+  <div class="wrap about">
+    <div class="about-text">
+      <p class="eyebrow eyebrow-light" data-i18n="about_eyebrow">Tentang kami</p>
+      <h2 class="h2" data-i18n="about_h2">Anggap kami teman.</h2>
+      <p class="about-p" data-i18n="about_p">Rief Barbershop adalah tempat cukur di Sumber, Cirebon. Kami buka setiap hari, dan kamu bebas pilih capster yang kamu mau. Datang, duduk, dan nikmati potongan yang rapi.</p>
+      <dl class="stats">
+        <div><dt>10.00–23.00</dt><dd data-i18n="about_s1">Buka setiap hari</dd></div>
+        <div><dt>10</dt><dd data-i18n="about_s2">Slot booking per hari</dd></div>
+        <div><dt>50K</dt><dd data-i18n="about_s3">Booking tanpa antre</dd></div>
+      </dl>
+    </div>
+    <figure class="ph reveal-img" data-label="FOTO: capster / suasana toko (assets/craft-1.jpg)" style="--ar:4/5">
+      <img src="assets/craft-1.jpg" alt="Capster Rief Barbershop sedang bekerja" loading="lazy" onerror="this.remove()">
+    </figure>
   </div>
 </section>
 
@@ -276,6 +297,7 @@
       <p class="foot-addr">Jl. R. Dewi Sartika No.35, Sumber,<br>Kabupaten Cirebon, Jawa Barat 45611</p>
     </div>
     <ul class="foot-nav">
+      <li><a href="#about" data-i18n="nav_about">Tentang</a></li>
       <li><a href="#list" data-i18n="nav_list">Layanan</a></li>
       <li><a href="#gallery" data-i18n="nav_gallery">Galeri</a></li>
       <li><a href="#visit" data-i18n="nav_visit">Lokasi</a></li>
@@ -294,7 +316,7 @@
   <span data-i18n="fab">Chat</span>
 </a>
 
-<script src="js/i18n.js?v=20261014a"></script>
-<script src="js/main.js?v=20261014a"></script>
+<script src="js/i18n.js?v=20261014b"></script>
+<script src="js/main.js?v=20261014b"></script>
 </body>
 </html>

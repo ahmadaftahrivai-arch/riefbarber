@@ -1,12 +1,15 @@
 /* Teks default (ID) ada di HTML. Di sini hanya terjemahan EN. */
 window.I18N_EN = {
   skip: "Skip to content",
-  nav_list: "Services", nav_gallery: "Gallery", nav_visit: "Location", nav_book: "Book",
+  nav_about: "About", nav_list: "Services", nav_gallery: "Gallery", nav_visit: "Location", nav_book: "Book",
   hero_eyebrow: "Barbershop · Cirebon · Open every day",
   hero_h1: "Sharp, no waiting.",
   hero_lead: "Book a time, pick your barber, get cut.",
   hero_cta: "Book on WhatsApp", hero_cta2: "See services",
   trust2: "Pick your barber", trust3: "Max. 10 bookings a day",
+  about_eyebrow: "About us", about_h2: "Think of us as friends.",
+  about_p: "Rief Barbershop is a barbershop in Sumber, Cirebon. We're open every day, and you pick the barber you want. Come in, sit down, and enjoy a clean cut.",
+  about_s1: "Open every day", about_s2: "Booking slots a day", about_s3: "No-wait booking",
   list_eyebrow: "Services", list_h2: "Service prices.",
   list_note: "No-wait booking from 50K. Other services, ask on WhatsApp.",
   swipe: "Swipe to see all",

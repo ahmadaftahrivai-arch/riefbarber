@@ -408,3 +408,19 @@ dd a { display: inline-block; padding: 4px 0; }
   .vb { grid-template-columns: 1fr; }
   .book-card { order: -1; }
 }
+
+/* ===== tentang kami ===== */
+.sec-ink2 { background: var(--ink-2); color: var(--paper); }
+.sec-ink2 .eyebrow { color: var(--muted-light); }
+.about { display: grid; grid-template-columns: 1.15fr 1fr; gap: clamp(28px, 6vw, 96px); align-items: center; }
+.about-p { margin-top: 24px; max-width: 46ch; font-size: clamp(1rem, 1.4vw, 1.15rem); color: rgba(241, 237, 228, .82); }
+.stats { display: grid; grid-template-columns: repeat(3, auto); justify-content: start; gap: 12px clamp(20px, 4vw, 48px); margin-top: clamp(32px, 5vw, 56px); padding-top: 24px; border-top: 1px solid var(--line-light); }
+.stats dt { font-stretch: 125%; font-variation-settings: "wdth" 125; font-weight: 800; letter-spacing: -.02em; font-size: clamp(1.15rem, 2.2vw, 1.7rem); color: var(--paper); min-width: 0; padding: 0; text-transform: none; }
+.stats dd { margin-top: 4px; font-size: 10.5px; letter-spacing: .16em; text-transform: uppercase; color: var(--muted-light); }
+@media (max-width: 960px) {
+  .about { grid-template-columns: 1fr; }
+  .about .ph { order: -1; --ar: 16/11 !important; }
+}
+@media (max-width: 560px) { .stats { grid-template-columns: repeat(3, 1fr); gap: 12px; } .stats dt { font-size: 1.05rem; } .stats dd { letter-spacing: .1em; font-size: 9.5px; } }
+.stats dt { white-space: nowrap; }
+@media (max-width: 360px) { .stats { grid-template-columns: 1fr 1fr; } }

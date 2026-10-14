@@ -151,7 +151,7 @@
   hsView.addEventListener("scroll", setActiveCard, { passive: true });
 
   /* ---------- Scroll loop ---------- */
-  var sections = $$("#list, #gallery, #visit").map(function (s) {
+  var sections = $$("#about, #list, #gallery, #visit").map(function (s) {
     return { el: s, link: $('.nav-links a[href="#' + s.id + '"]') };
   });
   var ticking = false;
