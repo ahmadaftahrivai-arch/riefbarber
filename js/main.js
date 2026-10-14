@@ -151,7 +151,7 @@
   hsView.addEventListener("scroll", setActiveCard, { passive: true });
 
   /* ---------- Scroll loop ---------- */
-  var sections = $$("#about, #list, #gallery, #visit").map(function (s) {
+  var sections = $$("#about, #list, #gallery, #visit, #contact").map(function (s) {
     return { el: s, link: $('.nav-links a[href="#' + s.id + '"]') };
   });
   var ticking = false;
@@ -161,9 +161,10 @@
     progress.style.transform = "scaleX(" + (max > 0 ? clamp(y / max, 0, 1) : 0).toFixed(4) + ")";
     nav.classList.toggle("scrolled", y > 40);
     var line = window.innerHeight * 0.35;
+    var atEnd = window.innerHeight + y >= document.documentElement.scrollHeight - 4;
     sections.forEach(function (s) {
       var r = s.el.getBoundingClientRect();
-      if (s.link) s.link.classList.toggle("on", r.top <= line && r.bottom > line);
+      if (s.link) s.link.classList.toggle("on", s.el.id === "contact" ? atEnd : (!atEnd && r.top <= line && r.bottom > line));
     });
     hsUpdate();
     ticking = false;

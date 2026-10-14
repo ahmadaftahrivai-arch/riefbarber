@@ -24,7 +24,7 @@ window.I18N_EN = {
   testi_cta: "Open the Testimonials highlight",
   visit_eyebrow: "Open every day", visit_h2: "Booking & location.",
   visit_days: "Every day", visit_addr: "Address", visit_map: "Open in Google Maps",
-  contact_eyebrow: "Contact us", contact_h2: "Any questions?", contact_wa: "Chat now", contact_ig: "View profile",
+  contact_eyebrow: "Contact us",
   book_h3: "Book via WhatsApp",
   f_name: "Name", f_service: "Service", f_capster: "Barber (optional)", f_capster_ph: "Your usual barber's name",
   f_day: "Date", f_time: "Time",
